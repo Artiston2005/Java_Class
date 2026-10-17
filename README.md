@@ -128,4 +128,6 @@ Deploy the generated `.war` file from `target/` into Tomcat's `webapps/` folder 
 ---
 
 ## 👤 Author
+- **Name:** Ashwin Yadav
+- **Roll Number:** 24EGJCS042
 - **GitHub:** [@Artiston2005](https://github.com/Artiston2005)
