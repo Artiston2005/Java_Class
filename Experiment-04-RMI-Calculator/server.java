@@ -1,19 +1,14 @@
-import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 
 public class server {
     public static void main(String[] args) {
         try {
-            // Automatically start RMI registry on port 1099 if not already running
-            try {
-                LocateRegistry.createRegistry(1099);
-                System.out.println("RMI Registry started on port 1099...");
-            } catch (Exception e) {
-                // Registry already running
-            }
+            // Create in-process RMI registry on default port 1099
+            Registry registry = LocateRegistry.createRegistry(1099);
 
             calculatorimpl obj = new calculatorimpl();
-            Naming.rebind("rmi://localhost/calculator", obj);
+            registry.rebind("calculator", obj);
             System.out.println("RMI Server Started...");
         } catch (Exception e) {
             System.out.println("Server error: " + e.getMessage());
