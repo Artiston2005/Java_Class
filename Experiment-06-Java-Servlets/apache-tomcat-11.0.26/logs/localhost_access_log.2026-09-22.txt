@@ -1,0 +1,8 @@
+127.0.0.1 - - [22/Sep/2026:23:10:58 +0530] "GET /servlet/ HTTP/1.1" 200 919
+127.0.0.1 - - [22/Sep/2026:23:10:58 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [22/Sep/2026:23:11:04 +0530] "GET /servlet/hello HTTP/1.1" 200 67
+127.0.0.1 - - [22/Sep/2026:23:11:28 +0530] "POST /servlet/student HTTP/1.1" 200 110
+127.0.0.1 - - [22/Sep/2026:23:11:45 +0530] "POST /servlet/login HTTP/1.1" 200 58
+127.0.0.1 - - [22/Sep/2026:23:11:49 +0530] "GET /servlet/home HTTP/1.1" 200 76
+127.0.0.1 - - [22/Sep/2026:23:11:50 +0530] "GET /servlet/logout HTTP/1.1" 302 -
+127.0.0.1 - - [22/Sep/2026:23:11:50 +0530] "GET /servlet/index.html HTTP/1.1" 200 919
